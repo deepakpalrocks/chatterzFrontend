@@ -64,7 +64,7 @@ function Homepage() {
             });
             localStorage.setItem("userInfo", JSON.stringify(data));
             // setPicLoading(false);
-            window.location.replace("/chats");
+            window.location.replace("/");
           }
           catch(error){
             console.log(error);
